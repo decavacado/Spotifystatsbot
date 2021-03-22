@@ -1,0 +1,17 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "Spotify Stats Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1",
+    "uuid": "^8.3.2"
+  }
+}
