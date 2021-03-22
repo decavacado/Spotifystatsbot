@@ -6,7 +6,7 @@ const pg = require("pg");
 
 //Database
 const pgclient = new pg.Client({
-	connectionString: "postgres://sozhshjllrxqty:4ffec387901f5a079e874b290834893a946713efd012ae70159dec9c27e80a93@ec2-52-205-145-201.compute-1.amazonaws.com:5432/d6mfatrd67m8ha",
+	connectionString: "URI",
 	ssl: {
 		rejectUnauthorized: false
 	}
@@ -96,4 +96,4 @@ client.on("ready", function(){
 
 
 
-client.login("Nzg1Mjk2Njk0OTQ5ODM4ODc4.X81yig.kQrW3AvZ3dnPdrp-Dz-QA880ZUU");
+client.login("token");
